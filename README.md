@@ -29,13 +29,13 @@ This script converts images or directories of images to the WebP format using Py
 To convert a single image file:
 
 ```sh
-python convert_to_webp.py /path/to/image.jpg
+python3 convert_to_webp.py /path/to/image.jpg
 ```
 
 
 To convert all images in a directory:
 ```sh
-python convert_to_webp.py /path/to/directory/
+python3 convert_to_webp.py /path/to/directory/
 ```
 If no path is provided, the script will use the current directory by default.
 
